@@ -1,0 +1,28 @@
+FD.test({
+  id: 'testA',
+  part: 'A',
+  Q: [
+    ['peripheral', 'What is a peripheral device?', ['A device that can be connected to a computer, inside or outside it', 'The main processor of a computer', 'A program that runs in the background', 'A type of network cable'], 'Peripherals are grouped into input, output and storage.', 'peripherals'],
+    ['types', 'Which list shows the three types of peripheral?', ['Input, output and storage', 'Hardware, software and data', 'Wired, wireless and mobile', 'Keyboard, mouse and monitor'], 'Figure 1.34: input → processing → output, plus storage.', 'peripherals'],
+    ['input', 'Which of these is an input device?', ['Microphone', 'Printer', 'Speakers', 'Monitor'], 'A microphone sends data (sound) to the computer.', 'peripherals'],
+    ['storage', 'Which of these is a storage peripheral?', ['External hard drive', 'Webcam', 'Joystick', 'Track pad'], 'Storage keeps data to be used again later.', 'peripherals'],
+    ['shortcut', 'What is a keyboard shortcut?', ['A combination of key presses used to access common software commands quickly', 'A key that is missing from a laptop keyboard', 'A very short cable', 'A menu that appears when you right-click'], 'For example Ctrl+S (⌘+S) saves.', 'keyboards'],
+    ['touch-type', 'What is the main benefit of touch-typing?', ['It increases the speed at which data can be input', 'It means you do not need a keyboard', 'It makes the keyboard wireless', 'It stops typing mistakes completely'], 'Touch-typists do not need to look at the keys.', 'keyboards'],
+    ['layouts', 'Why are there different keyboard layouts?', ['For different operating systems, languages and functions', 'To make keyboards heavier', 'Because wired keyboards need more keys', 'To stop shortcuts from working'], 'E.g. AZERTY, QWERTZ, ⌘ keys, keys mapped to video commands.', 'keyboards'],
+    ['mouse', 'What does an optical mouse use to recognise its movement?', ['An optical sensor', 'A magnetic strip', 'A microphone', 'A stylus'], 'Its sensitivity can be affected by the surface.', 'pointing'],
+    ['tracker ball', 'Which pointing device is rolled to move the pointer and has no buttons?', ['Tracker ball', 'Track pad', 'Graphics tablet', 'Joystick'], 'Tracker balls are often used in kiosks.', 'pointing'],
+    ['track pad', 'Why are track pads built into laptops?', ['To save space', 'Because they are more accurate than a graphics tablet', 'Because they can scan barcodes', 'Because they use no electricity'], 'Figure 1.40.', 'pointing'],
+    ['graphics tablet', 'Who would most often use a graphics tablet and stylus?', ['A digital artist or designer', 'A supermarket cashier', 'A pilot', 'A security guard'], 'Users draw or write on the tablet with the stylus.', 'pointing'],
+    ['OCR', 'A school scans a printed letter and wants to edit the words. Which software does it need?', ['OCR (Optical Character Recognition)', 'OMR (Optical Mark Recognition)', 'A barcode reader', 'Voice recognition'], 'OCR reads the characters and stores them in a text file.', 'scanners'],
+    ['OMR', 'What is a common use of OMR?', ['Recording the answers to multiple-choice tests', 'Reading handwritten essays', 'Tracking parcels', 'Streaming video'], 'OMR detects simple marks on a document.', 'scanners'],
+    ['barcode', 'What does a barcode scanner detect?', ['The width of the lines and gaps', 'The price written on the item', 'The temperature of the item', 'The owner’s fingerprint'], 'The pattern represents letters and numbers that identify the item.', 'scanners'],
+    ['webcam', 'Which statement about webcams is correct?', ['They can stream images or video to the internet', 'They are always higher quality than camcorders', 'They are output devices', 'They cannot capture sound'], 'Webcams may have built-in microphones and can be used as security cameras.', 'scanners'],
+  ],
+  LONG: [
+    { q: 'Describe how a barcode is used to identify an item at a supermarket checkout.', m: 3, s: ['The barcode scanner shines light / a laser across the barcode (1).', 'It detects the width of the lines and gaps (1).', 'The pattern is converted into a number / letters and numbers (1).', 'The number is used to look up the item (name, price) in a database (1).', 'Max 3.'], link: ['scanners', 'See the barcode scanner'] },
+    { q: 'Give <b>two</b> advantages of QR codes compared with linear barcodes.', m: 2, s: ['They can hold much more information (1).', 'They can be scanned from any angle (1).'] },
+    { q: 'A teacher has 150 multiple-choice answer sheets to mark. Explain how OMR could help.', m: 3, s: ['The sheets are put through a scanner (1).', 'OMR software detects the simple marks / filled-in boxes on each sheet (1).', 'The answers are recorded / compared with the correct answers automatically (1).', 'Faster / fewer mistakes than marking by hand (1).', 'Max 3.'] },
+    { q: 'A library kiosk lets the public search the catalogue. Explain why a tracker ball might be chosen instead of a mouse.', m: 2, s: ['The tracker ball stays fixed in place / cannot be moved or taken away (1).', 'It has no buttons / no separate parts that can be damaged / it does not depend on a surface (1).'] },
+    { q: 'Explain the difference between a scanned image of a document and the same document after OCR.', m: 3, s: ['A scanned image is a picture made of dots / pixels (1).', 'The words in an image cannot be edited or searched by the computer (1).', 'OCR recognises the characters and stores them in a text file (1).', 'The text can then be edited / searched / copied (1).', 'Max 3.'] },
+  ],
+});
