@@ -41,7 +41,7 @@ FD.add({
         <div data-panel="mon" class="sim" hidden>
           <p class="strong">⛰️ Gas levels near a volcano, over 24 hours</p>
           <div class="sim-box">
-            <svg viewBox="0 0 520 200" aria-label="Gas level over 24 hours: sensor readings and human checks">
+            <svg viewBox="0 0 530 200" aria-label="Gas level over 24 hours: sensor readings and human checks">
               <line class="sn-axis" x1="40" y1="170" x2="510" y2="170"/><line class="sn-axis" x1="40" y1="10" x2="40" y2="170"/>
               <line class="sn-danger" x1="40" y1="60" x2="510" y2="60"/><text class="sn-dl" x="508" y="54">danger level</text>
               ${[0, 6, 12, 18, 24].map((h) => `<text class="svg-sm" x="${40 + h * 19.5}" y="186">${String(h).padStart(2, '0')}:00</text>`).join('')}

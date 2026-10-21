@@ -46,7 +46,7 @@ FD.add({
                 <text class="mc-cap" x="378" y="140">digital data</text>
                 <text class="mc-bin" id="bin" x="540" y="205"></text>
               </g>
-              <text class="svg-sm" x="458" y="228">sound card: analogue-to-digital converter</text>
+              <text class="svg-sm" x="448" y="228">sound card: analogue-to-digital converter</text>
             </svg>
           </div>
           <div class="ctrls">
