@@ -45,6 +45,7 @@ FD.add({
       </section>
 
       <div class="st-cols">${part('A')}${part('B')}</div>
+      <p class="small muted">Want to repeat the unit from zero? <button class="link-btn danger" id="sReset">↺ Reset my progress</button></p>
       <p class="small muted">Your progress is saved in this browser only. Nothing is sent to the internet. The camera and microphone are never used: all the scanners and recognisers here are simulations. The people, shops and products are made up, except the examples taken from the book.</p>`;
     const $ = (s) => el.querySelector(s);
     $('#sName').addEventListener('input', (e) => { FD.state.name = e.target.value; FD.save(); });
@@ -54,6 +55,7 @@ FD.add({
       else FD.goto('peripherals');
     });
     $('#sProg').addEventListener('click', FD.openProgress);
+    $('#sReset').addEventListener('click', () => FD.openProgress('reset'));
     el.querySelectorAll('[data-go]').forEach((b) => b.addEventListener('click', () => FD.goto(b.dataset.go)));
   },
 });
